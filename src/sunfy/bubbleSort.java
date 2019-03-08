@@ -1,8 +1,8 @@
 package sunfy;
 
 /**
- * 冒泡排序
- * 语法示例
+ * 冒泡排序语法示例
+ * 测试github
  */
 public class bubbleSort {
 
