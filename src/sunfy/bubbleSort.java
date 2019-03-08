@@ -2,7 +2,7 @@ package sunfy;
 
 /**
  * 冒泡排序语法示例
- * 测试github
+ * test successful
  */
 public class bubbleSort {
 
