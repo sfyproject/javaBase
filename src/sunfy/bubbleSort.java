@@ -1,5 +1,8 @@
 package sunfy;
 
+/**
+ * 冒泡排序语法示例
+ */
 public class bubbleSort {
 
     public static void main(String[] args){
