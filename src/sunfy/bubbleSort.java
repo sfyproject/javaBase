@@ -7,7 +7,7 @@ package sunfy;
 public class bubbleSort {
 
     public static void main(String[] args){
-        int[] arr = {1,3,65,34,56,8};
+        int[] arr = {1,3,65,34,56,8,69,678,69};
         for (int i = 0; i < arr.length; i++) {
             System.out.println("原始数据---"+arr[i]);
         }
