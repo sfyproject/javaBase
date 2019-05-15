@@ -5,7 +5,7 @@ package sunfy;
  * test successful
  * sfyxsy changes
  */
-public class bubbleSort {
+public class BubbleSort {
 
     public static void main(String[] args){
         int[] arr = {1,3,65,34,56,8};
