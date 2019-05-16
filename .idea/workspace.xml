@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4c783dd-bb60-4413-898d-88c56da77642" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sunfy/SortOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sunfy/bubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sunfy/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sunfy/testFile.java" beforeDir="false" />
-    </list>
+    <list default="true" id="e4c783dd-bb60-4413-898d-88c56da77642" name="Default Changelist" comment="" />
     <list id="8ef68b87-5628-41c4-b1d8-afabf1f26d89" name="notCommit" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -96,7 +91,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557926134106" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557926439461" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../dubbodemo" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
@@ -146,7 +141,7 @@
       <workItem from="1552037237939" duration="2060000" />
       <workItem from="1552039706609" duration="1076000" />
       <workItem from="1552621683324" duration="1166000" />
-      <workItem from="1557922078361" duration="4336000" />
+      <workItem from="1557922078361" duration="4934000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1552039043830</created>
@@ -166,11 +161,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8638000" />
+    <option name="totallyTimeSpent" value="9236000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1366" height="706" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2636778" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
