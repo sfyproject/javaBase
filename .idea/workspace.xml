@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4c783dd-bb60-4413-898d-88c56da77642" name="Default Changelist" comment="" />
-    <list id="8ef68b87-5628-41c4-b1d8-afabf1f26d89" name="notCommit" comment="" />
+
+    <list default="true" id="baea3853-cf17-45aa-b5be-dd9142e9c257" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +26,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sunfy/SortOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+
+            <state relative-caret-position="216">
+              <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+              <folding>
+                <element signature="e#99#100#0" expanded="true" />
+                <element signature="e#151#152#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,6 +93,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -107,9 +116,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="SortOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sunfy.SortOne" />
+  <component name="RunManager" selected="Application.bubbleSort">
+    <configuration name="bubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sunfy.bubbleSort" />
+      <module name="javaBase" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sunfy.testFile" />
       <module name="javaBase" />
       <extension name="coverage">
         <pattern>
@@ -123,7 +139,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SortOne" />
+        <item itemvalue="Application.bubbleSort" />
+        <item itemvalue="Application.testFile" />
       </list>
     </recent_temporary>
   </component>
@@ -137,36 +154,42 @@
       <created>1552037236190</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1552037236190</updated>
-      <workItem from="1552037237939" duration="2060000" />
-      <workItem from="1552039706609" duration="1076000" />
-      <workItem from="1552621683324" duration="1166000" />
-      <workItem from="1557922078361" duration="4934000" />
+
+      <updated>1551844944458</updated>
+      <workItem from="1551844948490" duration="877000" />
+      <workItem from="1552025990860" duration="268000" />
+      <workItem from="1552465357764" duration="1025000" />
+      <workItem from="1552556775344" duration="95000" />
     </task>
-    <task id="LOCAL-00001" summary="test">
-      <created>1552039043830</created>
+    <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/sfyproject/javaBase&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1552032281570</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1552039043830</updated>
+      <updated>1552032281570</updated>
     </task>
-    <task id="LOCAL-00002" summary="test">
-      <created>1557922377147</created>
+    <task id="LOCAL-00002" summary="测试文件注释">
+      <created>1552040236412</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1557922377150</updated>
+      <updated>1552040236413</updated>
+
     </task>
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9236000" />
+
+    <option name="totallyTimeSpent" value="5605000" />
+
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1366" height="706" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2636778" />
+
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -177,16 +200,21 @@
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.49644127" />
+
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286334" />
+
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007599" side_tool="true" weight="0.3291815" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49924013" weight="0.58007115" />
-      <window_info anchor="right" id="Database" />
+
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.37635574" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -241,30 +269,32 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
-    <MESSAGE value="Merge remote-tracking branch 'upstream/master'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml" />
-    <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+
+    <MESSAGE value="Merge branch 'master' of https://github.com/sfyproject/javaBase&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <MESSAGE value="测试文件注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试文件注释" />
+
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/sunfy/testFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+
+        <state relative-caret-position="216">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <folding>
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+          </folding>
+
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sunfy/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sunfy/SortOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+
+        <state relative-caret-position="243">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+
         </state>
       </provider>
     </entry>
