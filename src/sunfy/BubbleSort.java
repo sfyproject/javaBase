@@ -3,11 +3,12 @@ package sunfy;
 /**
  * 冒泡排序语法示例
  * test successful
+ * sfyxsy changes
  */
-public class bubbleSort {
+public class BubbleSort {
 
     public static void main(String[] args){
-        int[] arr = {1,3,65,34,56,8,69,678,69};
+        int[] arr = {1,3,65,34,56,8};
         for (int i = 0; i < arr.length; i++) {
             System.out.println("原始数据---"+arr[i]);
         }
