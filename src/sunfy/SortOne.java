@@ -1,5 +1,8 @@
 package sunfy;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class SortOne {
 
     /*
@@ -18,11 +21,19 @@ public class SortOne {
     void getKTwo(int str[],int k){
         System.out.println("方法二：满足条件的数字组合有：");
         int strAdd[] = new int[str.length];
+        // 优化代码
+        List list = new ArrayList();
         for (int i = 0; i < str.length; i++) {
             strAdd[i] = k - str[i];
+            list.add(k-str[i]);
         }
+        List listAdd = new ArrayList();
         for (int i = 0; i < strAdd.length; i++) {
             if(str[i] == strAdd[i]){
+//                System.out.println("第一个数字为："+str[i]+"；第二个数字为："+strAdd[i]);
+            }
+            if(list.contains(str[i]) && !listAdd.contains(str[i])){
+                listAdd.add(strAdd[i]);
                 System.out.println("第一个数字为："+str[i]+"；第二个数字为："+strAdd[i]);
             }
         }
@@ -34,6 +45,7 @@ public class SortOne {
 
         int[] str = {2,3,5,4,6,8};
         int k = 10;
+        System.out.println("数值K="+k);
         // 方法一
         sortOne.getKFirst(str,k);
         // 方法二
