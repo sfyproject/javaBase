@@ -21,6 +21,11 @@ public class SortOne {
         }
     }
 
+    /**
+     * 可以过滤重复数据
+     * @param str
+     * @param k
+     */
     void getKTwo(int str[],int k){
         System.out.println("方法二：满足条件的数字组合有：");
         int strAdd[] = new int[str.length];
