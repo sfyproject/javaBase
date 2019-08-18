@@ -1,7 +1,5 @@
 package com.sunfy.proxy.three.two.jdkproxy;
 
-、package com.imooc.jdkproxy;
-
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 

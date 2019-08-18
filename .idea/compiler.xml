@@ -6,13 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="factory" />
         <module name="singleton" />
+        <module name="template" />
+        <module name="COR" />
         <module name="proxy" />
+        <module name="adapter" />
+        <module name="strategy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="adapter" target="1.7" />
+      <module name="COR" target="1.7" />
+      <module name="factory" target="1.5" />
       <module name="proxy" target="1.7" />
       <module name="singleton" target="1.7" />
+      <module name="strategy" target="1.7" />
+      <module name="template" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

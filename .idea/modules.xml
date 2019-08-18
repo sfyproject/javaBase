@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/COR/COR.iml" filepath="$PROJECT_DIR$/COR/COR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adapter/adapter.iml" filepath="$PROJECT_DIR$/adapter/adapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/factory/factory.iml" filepath="$PROJECT_DIR$/factory/factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaBase.iml" filepath="$PROJECT_DIR$/javaBase.iml" />
       <module fileurl="file://$PROJECT_DIR$/proxy/proxy.iml" filepath="$PROJECT_DIR$/proxy/proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/singleton/singleton.iml" filepath="$PROJECT_DIR$/singleton/singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/strategy/strategy.iml" filepath="$PROJECT_DIR$/strategy/strategy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/template/template.iml" filepath="$PROJECT_DIR$/template/template.iml" />
     </modules>
   </component>
 </project>
